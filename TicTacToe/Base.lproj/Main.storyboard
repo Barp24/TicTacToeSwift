@@ -22,38 +22,26 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ENb-qW-rQG">
                                         <rect key="frame" x="0.0" y="0.0" width="373" height="121"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVE-YO-BvI">
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVE-YO-BvI">
                                                 <rect key="frame" x="0.0" y="0.0" width="121" height="121"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <backgroundConfiguration key="background">
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                    </backgroundConfiguration>
-                                                </buttonConfiguration>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4xz-85-4eH"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y3e-AY-q0g">
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y3e-AY-q0g">
                                                 <rect key="frame" x="126" y="0.0" width="121" height="121"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <backgroundConfiguration key="background">
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                    </backgroundConfiguration>
-                                                </buttonConfiguration>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XgB-7T-GDi"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybZ-mC-Otb">
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybZ-mC-Otb">
                                                 <rect key="frame" x="252" y="0.0" width="121" height="121"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <backgroundConfiguration key="background">
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                    </backgroundConfiguration>
-                                                </buttonConfiguration>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d8N-FF-j8j"/>
                                                 </connections>
@@ -63,38 +51,26 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Dfy-Es-ODR">
                                         <rect key="frame" x="0.0" y="126" width="373" height="121"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LmW-On-vgl">
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LmW-On-vgl">
                                                 <rect key="frame" x="0.0" y="0.0" width="121" height="121"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <backgroundConfiguration key="background">
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                    </backgroundConfiguration>
-                                                </buttonConfiguration>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rAJ-Jw-dvX"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V54-5j-Mda">
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V54-5j-Mda">
                                                 <rect key="frame" x="126" y="0.0" width="121" height="121"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <backgroundConfiguration key="background">
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                    </backgroundConfiguration>
-                                                </buttonConfiguration>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IGv-yc-xz5"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uth-yB-QBt">
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uth-yB-QBt">
                                                 <rect key="frame" x="252" y="0.0" width="121" height="121"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <backgroundConfiguration key="background">
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                    </backgroundConfiguration>
-                                                </buttonConfiguration>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XMc-YK-MXW"/>
                                                 </connections>
@@ -104,38 +80,26 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="NJy-zz-z9c">
                                         <rect key="frame" x="0.0" y="252" width="373" height="121"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEt-Kf-OuQ">
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEt-Kf-OuQ">
                                                 <rect key="frame" x="0.0" y="0.0" width="121" height="121"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <backgroundConfiguration key="background">
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                    </backgroundConfiguration>
-                                                </buttonConfiguration>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FFs-NR-wkU"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEc-rb-Unv">
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEc-rb-Unv">
                                                 <rect key="frame" x="126" y="0.0" width="121" height="121"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <backgroundConfiguration key="background">
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                    </backgroundConfiguration>
-                                                </buttonConfiguration>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="arr-Uu-b5W"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uc-jO-avI">
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uc-jO-avI">
                                                 <rect key="frame" x="252" y="0.0" width="121" height="121"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <backgroundConfiguration key="background">
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                    </backgroundConfiguration>
-                                                </buttonConfiguration>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HBh-WL-Npj"/>
                                                 </connections>

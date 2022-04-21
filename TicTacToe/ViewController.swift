@@ -137,6 +137,7 @@ class ViewController: UIViewController {
     {
         for button in board
         {
+            button.setImage(UIImage(), for: .normal)
             button.setTitle(nil, for: .normal)
             button.isEnabled = true
         }
@@ -171,12 +172,14 @@ class ViewController: UIViewController {
         {
             if(currentTurn == Turn.Nought)
             {
+                sender.setImage(UIImage(named: "Nought")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal), for: .normal)
                 sender.setTitle(NOUGHT, for: .normal)
                 currentTurn = Turn.Cross
                 turnLabel.text = CROSS
             }
             else if(currentTurn == Turn.Cross)
             {
+                sender.setImage(UIImage(named: "Cross")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal), for: .normal)
                 sender.setTitle(CROSS, for: .normal)
                 currentTurn = Turn.Nought
                 turnLabel.text = NOUGHT
